@@ -3,13 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAWOhtdiIiCJhZsQj_NNR0p9dGxlT76waM",
-  authDomain: "jobzilla-33136.firebaseapp.com",
-  projectId: "jobzilla-33136",
-  storageBucket: "jobzilla-33136.appspot.com",
-  messagingSenderId: "48313078767",
-  appId: "1:48313078767:web:a896dc8cfb1c5e687f5c1a",
-  measurementId: "G-15RJHXH9J0"
+  apiKey: "AIzaSyCTXXTjLbMeAWMSW_RncPIr1xox-AurVII",
+  authDomain: "sdp-final-db.firebaseapp.com",
+  projectId: "sdp-final-db",
+  storageBucket: "sdp-final-db.appspot.com",
+  messagingSenderId: "899502922858",
+  appId: "1:899502922858:web:e5dd8eb10366c3046d3e13"
 };
 
 export const app = initializeApp(firebaseConfig);
